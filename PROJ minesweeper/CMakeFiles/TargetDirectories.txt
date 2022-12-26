@@ -1,0 +1,3 @@
+C:/Users/eptel/Desktop/PROJECT/PROJ minesweeper/CMakeFiles/sfml_sample.dir
+C:/Users/eptel/Desktop/PROJECT/PROJ minesweeper/CMakeFiles/ALL_BUILD.dir
+C:/Users/eptel/Desktop/PROJECT/PROJ minesweeper/CMakeFiles/ZERO_CHECK.dir

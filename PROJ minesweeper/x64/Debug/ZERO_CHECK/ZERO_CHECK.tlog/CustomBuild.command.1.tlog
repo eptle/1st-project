@@ -1,0 +1,10 @@
+^C:\USERS\EPTEL\DESKTOP\PROJECT\PROJ MINESWEEPER\CMAKEFILES\4F42FF8D545114F9AD0ABA10A80221C2\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/eptel/Desktop/PROJECT/sfml_sample-main "-BC:/Users/eptel/Desktop/PROJECT/PROJ minesweeper" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/eptel/Desktop/PROJECT/PROJ minesweeper/sfml_sample.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
